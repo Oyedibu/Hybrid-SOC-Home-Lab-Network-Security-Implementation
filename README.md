@@ -8,7 +8,7 @@ This project involved the architectural design and deployment of a multi-segemen
 <img width="1366" height="768" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/84bc7959-f39c-4cfd-8e59-4f6d5638275c" />
 
 # Security Policy & Implementation
-## Using pfSense, I implemented a Zero-Trust egress policy for the Testing segment.
+    Using pfSense, I implemented a Zero-Trust egress policy for the Testing segment.
     .Rule 1: Explicitly allow DNS and DHCP for client connectivity.
     .Rule 2: Block all traffic from the Testing segment to the Management LAN
     .Rule 3: Allow Restricted internet access for threat research
