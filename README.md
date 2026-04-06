@@ -8,9 +8,9 @@ This project involved the architectural design and deployment of a multi-segemen
 <img width="1366" height="768" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/84bc7959-f39c-4cfd-8e59-4f6d5638275c" />
 # Security Policy & Implementation
     Using pfSense, I implemented a Zero-Trust egress policy for the Testing segment.
-    . Rule 1: Explicitly allow DNS and DHCP for client connectivity.
-    . Rule 2: Block all traffic from the Testing segment to the Management LAN
-    . Rule 3: Allow Restricted internet access for threat research
+        . Rule 1: Explicitly allow DNS and DHCP for client connectivity.
+        . Rule 2: Block all traffic from the Testing segment to the Management LAN
+        . Rule 3: Allow Restricted internet access for threat research
 <img width="1366" height="768" alt="Screenshot (31)" src="https://github.com/user-attachments/assets/04108048-a3da-4cbd-82f4-64307fcb1c14" />
 # Technical Challenges & Troubleshooting
     During the deployment , a routing conflict occured where the management  machine(Kali) retained legacy IP configuration leading to a       "Destination Host Unreachable" error.
