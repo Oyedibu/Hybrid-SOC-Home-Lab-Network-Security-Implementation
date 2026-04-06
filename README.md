@@ -33,6 +33,7 @@ I used the lab also to serve as a sandbox for email header forensics.
     . Packet Analysis & Forensic Validation (Wireshark)
     . Virtual infrastructure management (Hyper V)
 #Tools Used
+
   . Hypervisor: Hyper-V
   . Firewall/Router: pfSense
   . Operating System: Kali Linux, Windows 10
